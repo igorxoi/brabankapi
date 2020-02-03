@@ -1,0 +1,29 @@
+{
+  "name": "1.0",
+  "version": "1.0.0",
+  "description": "Api em Nodo do Brabank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "Igor Xavier",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorxoi/brabankapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorxoi/brabankapi/issues"
+  },
+  "homepage": "https://github.com/igorxoi/brabankapi#readme"
+}
